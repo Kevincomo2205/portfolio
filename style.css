@@ -1098,9 +1098,6 @@ footer span { color: var(--accent); }
     .about-stats { flex-direction: column; }
 
     .services-process { padding: 28px 20px; }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 }
 /* WEB BUSINESS */
 .web-business-box {
@@ -1210,7 +1207,4 @@ footer span { color: var(--accent); }
     .web-business-box {
         grid-template-columns: 1fr;
     }
-=======
->>>>>>> 2b2c79b3f98c0f23f2cde536782d9faa3145e330
->>>>>>> Stashed changes
 }
