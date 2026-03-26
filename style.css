@@ -1098,4 +1098,119 @@ footer span { color: var(--accent); }
     .about-stats { flex-direction: column; }
 
     .services-process { padding: 28px 20px; }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+}
+/* WEB BUSINESS */
+.web-business-box {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.web-business-text p {
+    color: var(--text-dim);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.web-highlight {
+    color: var(--white);
+    border-left: 3px solid var(--accent);
+    padding-left: 16px;
+    margin: 24px 0;
+}
+
+.web-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 14px 26px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-lit);
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.web-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-glow);
+}
+
+/* CARD */
+.web-business-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    transition: var(--transition);
+}
+
+.web-business-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--border-lit);
+    box-shadow: var(--shadow-card), var(--shadow-glow);
+}
+
+.web-badge {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 10px;
+}
+
+.web-business-card h3 {
+    color: var(--white);
+    margin-bottom: 14px;
+}
+
+.web-business-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.web-business-card li {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+/* STATUS */
+.web-status {
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    color: var(--teal);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: var(--teal);
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .web-business-box {
+        grid-template-columns: 1fr;
+    }
+=======
+>>>>>>> 2b2c79b3f98c0f23f2cde536782d9faa3145e330
+>>>>>>> Stashed changes
 }
